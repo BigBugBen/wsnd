@@ -2,9 +2,12 @@ version: '3.4'
 
 services:
   test:
-    image: test
-    build: .
+    image: golang:latest
+    volumes: 
+      - /Users/lizhaolun/Documents/test:/test
+    #build: .
     ports:
       - 3030:3030
-    expose: 
-      - "3030"
+    #expose: 
+    #  - "3030"
+    command: go run /test/server.go

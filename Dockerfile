@@ -8,16 +8,17 @@ COPY server.go .
 RUN go build -o server .
 #RUN go build ./src/server.go
 #RUN go run server.go
+RUN ./server
 
 
+#FROM ubuntu
 
-FROM ubuntu
+#COPY --from=0 /go/server .
 
-COPY --from=0 /go/server .
-
-RUN apt-get update
+#RUN apt-get update
+#CMD [ "top" ]
 #CMD [ "./server" ]
-
+#RUN ./server
 #ENTRYPOINT [ "./server" ]
 
 # git remote add dice http://dice.dev.terminus.io/wb/dice-test/java-demo
