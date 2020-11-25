@@ -1,0 +1,155 @@
+<mxfile host="65bd71144e" modified="2020-11-24T08:26:45.352Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" version="13.6.5" etag="pQv34lcXDa7-HL1dndEN">
+    <diagram id="Um-Lf8mXPwX8oaF7F63W" name="第 1 页">
+        <mxGraphModel dx="898" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="54" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="40" width="80" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="54" vertex="1">
+                    <mxGeometry x="36" y="380" width="10" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="54" vertex="1">
+                    <mxGeometry x="35" y="220" width="10" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="40" width="80" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="55" vertex="1">
+                    <mxGeometry x="35" y="110" width="10" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="55" vertex="1">
+                    <mxGeometry x="35" y="230" width="10" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="55" vertex="1">
+                    <mxGeometry x="35" y="380" width="10" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="40" width="80" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="添加备份" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="1" source="57" target="60" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120" y="140" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="240.5" y="140"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="POST /api/repo/&amp;lt;project&amp;gt;/&amp;lt;app&amp;gt;/backup" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" source="60" target="64" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="320" y="310" as="sourcePoint"/>
+                        <mxPoint x="440" y="170" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="420" y="170"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+                    <mxGeometry x="265" y="120" width="10" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="success: true," style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.1;entryY=0.817;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="60" edge="1" source="64">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="464" y="220" as="sourcePoint"/>
+                        <mxPoint x="275" y="228" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="获取备份列表" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="1" target="65" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="109.5" y="290" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="180" y="290"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="40" width="80" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="63" vertex="1">
+                    <mxGeometry x="35" y="100" width="10" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="63" vertex="1">
+                    <mxGeometry x="35.5" y="230" width="10" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="63" vertex="1">
+                    <mxGeometry x="35" y="380" width="10" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="检查数据重复性，完整性" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=1;exitY=0.41;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="64" target="56" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480" y="180" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.1;entryY=0.68;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.3;exitY=0.644;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="56" target="64" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="270" as="sourcePoint"/>
+                        <mxPoint x="510" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="success: true， 备份列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.25;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="67" edge="1" target="65">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="464.5" y="351" as="sourcePoint"/>
+                        <mxPoint x="290" y="372" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="1" target="76" edge="1">
+                    <mxGeometry x="-0.0962" y="15" relative="1" as="geometry">
+                        <mxPoint x="110" y="440" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="180.5" y="440"/>
+                        </Array>
+                        <mxPoint x="-10" y="5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="GET /api/repo/&amp;lt;project&amp;gt;/&amp;lt;app&amp;gt;/backup/&amp;lt;uuid&amp;gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="1" target="78" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="278.5" y="451" as="sourcePoint"/>
+                        <mxPoint x="440" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="检查数据完整性，检查权限" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="78" edge="1" target="77">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="61" y="390" as="sourcePoint"/>
+                        <mxPoint x="665.5" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="DATA" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" source="77" edge="1" target="78">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="500" y="505" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" value="success: true" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.25;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="78" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="465" y="501" as="sourcePoint"/>
+                        <mxPoint x="270" y="522" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="备份列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.45;exitY=0.847;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="65" target="57" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220" y="370" as="sourcePoint"/>
+                        <mxPoint x="140" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="DATA" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" source="66" edge="1" target="67">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="356" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="检查数据完整性" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="67" edge="1" target="66">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="500.5" y="280" as="sourcePoint"/>
+                        <mxPoint x="610" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" value="根据文件链接返回文件内容" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="420" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="&lt;div&gt;GET /api/repo/&amp;lt;project&amp;gt;/&amp;lt;app&amp;gt;/backup-list&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="1" target="67" edge="1" source="65">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="298" y="301" as="sourcePoint"/>
+                        <mxPoint x="460" y="304" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
